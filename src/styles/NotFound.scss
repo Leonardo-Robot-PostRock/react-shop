@@ -1,0 +1,27 @@
+@use "vars";
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p {
+    color: var(--very-light-pink);
+    font-size: var(--md);
+    font-weight: bold;
+}
+
+.link {
+    margin-top: 10px;
+    background-color: var(--hospital-green);
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+    color: var(--white);
+    font-weight: bold;
+}
+.link:active {
+    color: red;
+}
