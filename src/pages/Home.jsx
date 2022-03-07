@@ -1,11 +1,10 @@
 import React from "react";
 import '../styles/NotFound.scss'; 
+import Header from "../components/Header";
 
 const Home = () => {
   return (
-    <div>
-      <h1>React Shop</h1>
-    </div>
+      <Header />
   );
 };
 
