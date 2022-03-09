@@ -10,9 +10,7 @@ import MailSent from "../pages/MailSent";
 import Checkout from "../pages/Checkout";
 import MyAccount from "../pages/MyAccount";
 import Orders from "../pages/Orders";
-
 import NotFound from "../pages/NotFound";
-import "../styles/Login.scss";
 import "../styles/global.css";
 
 const App = () => {
