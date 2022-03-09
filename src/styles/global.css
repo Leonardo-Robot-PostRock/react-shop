@@ -2,3 +2,7 @@ body {
     margin: 0;
     font-family: 'Quicksand', sans-serif;
 }
+
+#app {
+    height: 100vh;
+}
