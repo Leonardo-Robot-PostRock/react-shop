@@ -1,11 +1,12 @@
 import React from "react";
+import '../styles/CreateNewPassoword.scss';
 
 const CreateNewPassword = () => {
   return (
     <div class="CreateNewPassword">
       <div class="CreateNewPassword-container">
         <img src="./logos/logo_yard_sale.svg" alt="logo" class="logo" />
-        <h1 class="title">Create a new password</h1>
+        <h1 class="title-newPassword">Create a new password</h1>
         <p class="subtitle">Enter a new password for you account</p>
 
         <form action="/" class="form">
@@ -19,8 +20,8 @@ const CreateNewPassword = () => {
             class="input input-password"
           />
 
-          <label for="new-password" class="l abel">
-            Password
+          <label for="new-password" class="label">
+            Re-enter password
           </label>
           <input
             type="password"

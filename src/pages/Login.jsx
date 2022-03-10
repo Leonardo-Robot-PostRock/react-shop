@@ -1,12 +1,11 @@
 import React from "react";
-import '../styles/Login.scss';
+import "../styles/Login.scss";
 
 const Login = () => {
   return (
     <div class="Login">
       <div class="Login-container">
         <img src="./logos/logo_yard_sale.svg" alt="logo" class="logo" />
-
         <form action="/" class="form">
           <label for="email" class="label">
             Email address
@@ -17,7 +16,6 @@ const Login = () => {
             placeholder="mail@example.com"
             class="input input-email"
           />
-
           <label for="password" class="label">
             Password
           </label>
@@ -27,7 +25,6 @@ const Login = () => {
             placeholder="*********"
             class="input input-password"
           />
-
           <input
             type="submit"
             value="Log in"

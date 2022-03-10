@@ -1,33 +1,30 @@
 import React from "react";
-import '../styles/MyAccount.scss';
+import "../styles/MyAccount.scss";
 
 const MyAccount = () => {
   return (
-    <div class="MyAccount">
-      <div class="MyAccount-container">
-        <h1 class="title">My account</h1>
-        <form action="/" class="form">
-          <div>
-            <label for="name" class="label">
+    <div className="MyAccount">
+      <div className="MyAccount-container">
+        <h1 className="title">My account</h1>
+        <form action="/" className="formAccount">
+          <div className="formAccount-container">
+            <label for="name" className="label">
               Name
             </label>
-            <p class="value">LeonardoRobotPostRock</p>
-
-            <label for="email" class="label">
+            <p className="value">LeonardoRobotPostRock</p>
+            <label for="email" className="label">
               Email
             </label>
-            <p class="value">11111001010@gmail.com</p>
-
-            <label for="password" class="label">
+            <p className="value">11111001010@gmail.com</p>
+            <label for="password" className="label">
               Password
             </label>
-            <p class="value">*********</p>
+            <p className="value">*********</p>
           </div>
-
           <input
             type="submit"
             value="Edit"
-            class="secondary-button login-button"
+            className="secondary-button login-button"
           />
         </form>
       </div>
