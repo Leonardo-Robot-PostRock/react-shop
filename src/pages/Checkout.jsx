@@ -4,7 +4,7 @@ import '../styles/Checkout.scss';
 
 const Checkout = () => {
   return (
-    <div class="ckeckout">
+    <div class="checkout">
       <div class="checkout-container">
         <h1 class="title">My Order</h1>
         <div class="checkout-content">

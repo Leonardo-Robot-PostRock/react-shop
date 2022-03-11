@@ -1,11 +1,13 @@
 import React from "react";
 import "../styles/Login.scss";
 
+import logo from '@logos/logo_yard_sale.svg';
+
 const Login = () => {
   return (
     <div class="Login">
       <div class="Login-container">
-        <img src="./logos/logo_yard_sale.svg" alt="logo" class="logo" />
+        <img src={logo} alt="logo" class="logo" />
         <form action="/" class="form">
           <label for="email" class="label">
             Email address
@@ -32,7 +34,7 @@ const Login = () => {
           />
           <a href="/">Forgot my password</a>
         </form>
-        <button class="secondary-button singup-button">Sing up</button>
+        <button class="secondary-button singUp-button">Sing up</button>
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ const ShoppingCart = () => {
       <figure>
         <img
           src="https://images.pexels.com/photos/4175054/pexels-photo-4175054.jpeg?cs=srgb&dl=pexels-anni-roenkae-4175054.jpg&fm=jpg"
-          alt="paiting"
+          alt="painting"
         />
       </figure>
       <p>Painting</p>
