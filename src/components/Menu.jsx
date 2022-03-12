@@ -3,20 +3,20 @@ import '../styles/Menu.scss';
 
 const Menu = () => {
   return (
-    <div class="Menu">
+    <div className="Menu">
       <ul>
         <li>
-          <a href="/" class="title">
+          <a href="/" className="title">
             My orders
           </a>
         </li>
         <li>
-          <a href="/" class="title">
+          <a href="/" className="title">
             My account
           </a>
         </li>
         <li>
-          <a href="/" class="title">
+          <a href="/" className="title">
             Sign out
           </a>
         </li>

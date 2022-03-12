@@ -5,20 +5,20 @@ import "../styles/MyOrder.scss";
 import arrow from '@icons/flechita.svg';
 
 const MyOrder = () => (
-  <aside class="MyOrder">
-    <div class="title-container">
+  <aside className="MyOrder">
+    <div className="title-container">
       <img src={arrow} alt="arrow" />
-      <p class="title">My order</p>
+      <p className="title">My order</p>
     </div>
     <div className="my-order-content">
       <OrderItem />
-      <div class="order">
+      <div className="order">
         <p>
           <span>Total</span>
         </p>
         <p>$560.00</p>
       </div>
-      <button class="primary-button">Checkout</button>
+      <button className="primary-button">Checkout</button>
     </div>
   </aside>
 );

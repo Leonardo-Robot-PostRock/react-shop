@@ -6,8 +6,8 @@ import close from '@icons/icon_close.png'
 
 const ProductDetail = () => {
   return (
-    <aside class="ProductDetail">
-      <div class="ProductDetail-close">
+    <aside className="ProductDetail">
+      <div className="ProductDetail-close">
         <img src={close} alt="close" />
       </div>
       <ProductInfo />

@@ -5,36 +5,36 @@ import logo from '@logos/logo_yard_sale.svg';
 
 const Login = () => {
   return (
-    <div class="Login">
-      <div class="Login-container">
-        <img src={logo} alt="logo" class="logo" />
-        <form action="/" class="form">
-          <label for="email" class="label">
+    <div className="Login">
+      <div className="Login-container">
+        <img src={logo} alt="logo" className="logo" />
+        <form action="/" className="form">
+          <label for="email" className="label">
             Email address
           </label>
           <input
             type="text "
             id="password"
             placeholder="mail@example.com"
-            class="input input-email"
+            className="input input-email"
           />
-          <label for="password" class="label">
+          <label for="password" className="label">
             Password
           </label>
           <input
             type="password"
             id="password"
             placeholder="*********"
-            class="input input-password"
+            className="input input-password"
           />
           <input
             type="submit"
             value="Log in"
-            class="primary-button login-button"
+            className="primary-button login-button"
           />
           <a href="/">Forgot my password</a>
         </form>
-        <button class="secondary-button singUp-button">Sing up</button>
+        <button className="secondary-button singUp-button">Sing up</button>
       </div>
     </div>
   );
