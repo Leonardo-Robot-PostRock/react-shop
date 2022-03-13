@@ -49,7 +49,6 @@ const Header = () => {
         </ul>
       </div>
       {toggle && <Menu />}
-      <Menu />
     </nav>
   );
 };
