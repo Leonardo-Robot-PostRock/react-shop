@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/ProductInfo.scss";
 
-import addToCart from "@icons/bt_add_to_cart.svg";
+import addToCartImage from "@icons/bt_add_to_cart.svg";
 
 const ProductInfo = () => {
   return (
@@ -17,7 +17,7 @@ const ProductInfo = () => {
           Abstract painting. This art use seven colours. Her size is the 15,4MB.{" "}
         </p>
         <button className="primary-button add-to-cart-button">
-          <img src={addToCart} alt="add to cart" />
+          <img src={addToCartImage} alt="add to cart" />
           Add to cart
         </button>
       </div>
