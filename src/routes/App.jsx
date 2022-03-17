@@ -19,9 +19,9 @@ const App = () => {
   const initialState = useInitialState();
   return (
     <AppContext.Provider value={initialState}>
-      <BrowserRouter basename="/">
+      <BrowserRouter>
         <Layout>
-          <Routes>
+          <Routes basename="/react-shop">
             <Route exact path="/" element={<Home />} />
             <Route
               exact
