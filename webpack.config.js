@@ -6,7 +6,7 @@ module.exports = {
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'react-shop/bundle.js',
+        filename: 'bundle.js',
         publicPath: '/react-shop/'
     },
     mode: 'development',
@@ -50,7 +50,10 @@ module.exports = {
             },
             {
                 test: /\.(png|svg|jpg|gif|)$/,
-                type: 'asset',
+                type: 'asset/resource',
+                generator: {
+                    filename: "public/[hash][ext]",
+                },
             }
         ]
     },
